@@ -8,7 +8,7 @@ class Node {
     }
 }
 
-class Stack {
+class StackIMP {
     Node head;
 
     // Return tail node
@@ -83,7 +83,7 @@ public class StackUsingLinkedList {
 
     public static void main(String[] args) {
 
-        Stack s = new Stack();
+        StackIMP s = new StackIMP();
 
         s.push(10);
         s.push(20);

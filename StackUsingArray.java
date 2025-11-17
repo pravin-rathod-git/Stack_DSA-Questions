@@ -1,5 +1,5 @@
 // Stack class implemented using an array
-class Stack {
+class StackIMP {
     int size = 10;              // Maximum capacity of the stack
     int top = -1;               // Pointer to the top element
     int[] arr = new int[size];  // Array to store stack elements
@@ -54,7 +54,7 @@ class Stack {
 public class StackUsingArray {
     public static void main(String[] args) {
 
-        Stack s = new Stack();  // Create a new stack
+        StackIMP s = new StackIMP();  // Create a new stack
 
         s.push(10);
         s.push(20);
@@ -64,7 +64,7 @@ public class StackUsingArray {
         System.out.println(s.pop());  // Output: 20
 
         System.out.println(s.top());  // Output: 10
-        System.out.println(s.size()); // Output: 1
+        // Output: 1
 
         // Test underflow
         s.pop();   // Pops 10
