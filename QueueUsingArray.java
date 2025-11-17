@@ -1,5 +1,5 @@
 // Queue class implemented using Circular Array
-class Queue {
+class QueueArray {
     int size = 16;              // Maximum capacity of the queue
     int start = -1;             // Pointer to the front element
     int end = -1;               // Pointer to the rear element
@@ -75,7 +75,7 @@ class Queue {
 
 public class QueueUsingArray {
     public static void main(String[] args) {
-        Queue q = new Queue();
+        QueueArray q = new QueueArray();
 
         q.push(10);
         q.push(20);
