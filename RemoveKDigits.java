@@ -45,7 +45,7 @@ public class RemoveKDigits {
     //       MAIN METHOD
     // ----------------------
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        RemoveKDigits sol = new RemoveKDigits();
 
         String num = "1432219";
         int k = 3;
